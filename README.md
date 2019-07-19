@@ -96,11 +96,8 @@ Quick way to create this from the repository as is:
 
 Actual way for creating everything using the default terraform flow
 
-**Initialise your terraform** 
-``terraform init`` 
-**Plan your terraform Code**
+``terraform init``
 ``terraform plan  -var-file=prod_var.tfvars``
-**Apply your terraform Code to AWS **
 ``terraform apply -var-file=prod_var.tfvars``
 
 
