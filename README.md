@@ -73,9 +73,9 @@ Modules need to be used to create infrastructure. For an example on how to use t
 
 These are the conventions we have in every module
 
--   Contains main.tf where all the terraform code is
--   Contains outputs.tf with the output parameters
--   Contains variables.tf which sets required attributes
+-   Contains **main.tf** where all the terraform code is
+-   Contains **outputs.tf** with the output parameters
+-   Contains **variables.tf** which sets required attributes
 -   For grouping in AWS we set the tag "Environment" everywhere where possible
 
 ### [](https://github.com/sikandarqaisar/Terraform-ECS-Cluster#module-structure)Module structure
