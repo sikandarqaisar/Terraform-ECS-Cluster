@@ -131,7 +131,7 @@ In some cases, it is necessary to have a system 'service' running that does a pa
 
 ECS has different  deployment strategies but it does not have an option to run a system container on every EC2 node on boot. It is possible to do this via ECS workaround or via Docker.
 
-#### [](https://github.com/sikandarqaisar/Terraform-ECS-Cluster#ecs-workaround)ECS workaround
+### [](https://github.com/sikandarqaisar/Terraform-ECS-Cluster#ecs-workaround)ECS workaround
 
 The ECS workaround is described here  [Running an Amazon ECS Task on Every Instance](https://aws.amazon.com/blogs/compute/running-an-amazon-ecs-task-on-every-instance/). It basically means use a Task definition and a custom boot script to start and register the task in ECS. This is awesome because it allows you to see the system container running in ECS console. The bad thing about it is that it does not restart the container when it crashes. It is possible to create a Lambda to listen to changes/exits of the system container and act on it. For example, start it again on the same EC2 node.
 
