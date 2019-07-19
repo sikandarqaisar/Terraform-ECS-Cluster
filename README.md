@@ -63,11 +63,11 @@ Modules need to be used to create infrastructure. For an example on how to use t
 
 ### [](https://github.com/sikandarqaisar/Terraform-ECS-Cluster#List-of-modules)List of modules
 -   **ECS**
-- -   **Template**
+     -   **Template**
 -   **VPC**
 -   **IAM**
 -   **LoadBalancer-AutoScaling**
-- -   **Template**
+    -   **Template**
 
 ### [](https://github.com/sikandarqaisar/Terraform-ECS-Cluster#conventions)Conventions
 
@@ -93,9 +93,9 @@ Quick way to create this from the repository as is:
 
 Actual way for creating everything using the default terraform flow
 
-``terraform init
-terraform plan  -var-file=prod_var.tfvars
-terraform apply -var-file=prod_var.tfvars``
+``terraform init``
+``terraform plan  -var-file=prod_var.tfvars``
+``terraform apply -var-file=prod_var.tfvars``
 
 
 
