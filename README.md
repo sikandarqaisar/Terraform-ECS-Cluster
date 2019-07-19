@@ -3,7 +3,7 @@
 
 This repository contains the Terraform modules for creating a production ready ECS in AWS.
 
--   [What is ECS?](https://github.com#what-is-ecs)
+-   [What is ECS?](https://github.com/sikandarqaisar/Terraform-ECS-cluster#what-is-ecs)
 -   [ECS infrastructure in AWS](https://github.com/sikandarqaisar/terraform-ECS-Cluster#ecs-infra)
 -   [ECS Terraform module](https://github.com/sikandarqaisar/terraform-ECS-Cluster#terraform-module)
 -   [How to create the infrastructure](https://github.com/sikandarqaisar/terraform-ECS-Cluster#create-it)
