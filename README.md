@@ -35,7 +35,7 @@ The difference between running your own Kubernetes or Mesos and ECS is the lack 
 As stated above ECS needs EC2 nodes that are being used as slaves to run Docker containers on. To do so you need infrastructure for this. Here is an ECS production-ready infrastructure diagram.
 
 
-![ECS infra](https://github.com/sikandarqaisar/Terraform-ECS-Cluster/blob/master/ecs-infra.png)
+![ECS infra](https://github.com/sikandarqaisar/Terraform-ECS-Cluster/blob/master/ecs-infra.png))
 
 
 What are we creating:
@@ -93,9 +93,11 @@ Quick way to create this from the repository as is:
 
 Actual way for creating everything using the default terraform flow
 
-``terraform init``
-``terraform plan  -var-file=prod_var.tfvars``
-``terraform apply -var-file=prod_var.tfvars``
+```
+ terraform init
+ terraform plan  -var-file=prod_var.tfvars
+ terraform apply -var-file=prod_var.tfvars 
+```
 
 
 
