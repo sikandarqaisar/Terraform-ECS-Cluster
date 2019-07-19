@@ -94,7 +94,8 @@ Quick way to create this from the repository as is:
 
 ``terraform apply  -var-file=prod_var.tfvarsz``
 
-Actual way for creating everything using the default terraform flow:
+Actual way for creating everything using the default terraform flow
+
 **Initialise your terraform** 
 ``terraform init`` 
 **Plan your terraform Code**
