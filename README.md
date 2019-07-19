@@ -93,9 +93,9 @@ Quick way to create this from the repository as is:
 
 Actual way for creating everything using the default terraform flow
 
-``terraform init``
-``terraform plan  -var-file=prod_var.tfvars``
-``terraform apply -var-file=prod_var.tfvars``
+``terraform init
+terraform plan  -var-file=prod_var.tfvars
+terraform apply -var-file=prod_var.tfvars``
 
 
 
